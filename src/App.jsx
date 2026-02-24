@@ -33,7 +33,7 @@ function App() {
   });
 
   return (
-    <Router>
+    <Router>zz
       <div className="app">
         <Header onMenuClick={toggleSidebar} onSearch={handleSearch} />
         <Sidebar isOpen={sidebarOpen} />
